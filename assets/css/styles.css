@@ -166,7 +166,7 @@ body {
 	border-radius: 3px;
 	background-color: #373743;
 	width: 307px;
-	height: 118px;
+	height: 85px;
 	list-style-type: none;
 	margin: 10px;
 	display: inline-block;
@@ -193,29 +193,29 @@ body {
 }
 
 .filemanager .data li .name {
-	color: #ffffff;
-	font-size: 15px;
-	font-weight: 700;
-	line-height: 20px;
-	width: 150px;
-	white-space: nowrap;
-	display: inline-block;
-	position: absolute;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	top: 40px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    width: 150px;
+    white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    top: 1.4em;
 }
 
 .filemanager .data li .details {
-	color: #b6c1c9;
-	font-size: 13px;
-	font-weight: 400;
-	width: 55px;
-	height: 10px;
-	top: 64px;
-	white-space: nowrap;
-	position: absolute;
-	display: inline-block;
+    color: #b6c1c9;
+    font-size: 13px;
+    font-weight: 400;
+    width: 55px;
+    height: 10px;
+    top: 3.6em;
+    white-space: nowrap;
+    position: absolute;
+    display: inline-block;
 }
 
 .filemanager .nothingfound {
@@ -330,31 +330,31 @@ body {
 }
 
 .icon.file {
-	width: 2.5em;
-	height: 3em;
-	line-height: 3em;
-	text-align: center;
-	border-radius: 0.25em;
-	color: #FFF;
-	display: inline-block;
-	margin: 0.9em 1.2em 0.8em 1.3em;
-	position: relative;
-	overflow: hidden;
-	box-shadow: 1.74em -2.1em 0 0 #A4A7AC inset;
+    width: 2em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    border-radius: 0.25em;
+    color: #FFF;
+    display: inline-block;
+    margin: 0.6em .8em 0.6em .8em;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 1.5em -2em 0 0 #A4A7AC inset;
 }
 .icon.file:first-line {
 	font-size: 13px;
 	font-weight: 700;
 }
 .icon.file:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	border-width: 0;
-	border-bottom: 2.6em solid #DADDE1;
-	border-right: 2.22em solid rgba(0, 0, 0, 0);
-	top: -34.5px;
-	right: -4px;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    border-width: 0;
+    border-bottom: 2.6em solid #DADDE1;
+    border-right: 2.7em solid rgba(0, 0, 0, 0);
+    top: -36px;
+    right: -12px;
 }
 
 .icon.file.f-avi,
